@@ -1,3 +1,4 @@
+import ojo from './img/ojo.png';
 import React from 'react'
 import { useRouteError } from 'react-router-dom';
 
@@ -10,7 +11,9 @@ function errorPages(){
   return (
     <div id="error-page">
         <h1> Mierda, lo siento</h1>
-               <p>Devuelvase coma callado todo bien.. </p>
+               <p>Devuelvase y coma callado todo bien.. </p>
+               <img src={ojo} alt="ojo pues"/>
+
         <p>
             <i> {error.statusText || error.message}</i>
         </p>

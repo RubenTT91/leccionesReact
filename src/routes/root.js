@@ -7,7 +7,7 @@ export const root = () => {
     <>
     
         <div id="sidebar">   
-        <h1> Aprendizaje <a href="https://github.com/RubenTT91" target="blank">RubenchoTT91 </a></h1>
+        <h1> Aprendizaje de <a href="https://github.com/RubenTT91" target="blank"> RubenchoTT91 </a></h1>
           <nav>
             <ul>
               <li>

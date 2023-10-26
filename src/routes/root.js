@@ -11,13 +11,13 @@ export const root = () => {
           <nav>
             <ul>
               <li>
-                <Link to={`/leccion/LeccionUseRef`}>Use Ref</Link>
+                <Link to={`/LeccionUseRef`}>Use Ref</Link>
               </li>
               <li>
-                <Link to={`/leccion/LeccionUseState`}>Use State</Link>
+                <Link to={`/LeccionUseState`}>Use State</Link>
               </li>
               <li>
-                <Link to={`/leccion/LeccionRoute`}>Route</Link>
+                <Link to={`LeccionRoute`}>Route</Link>
               </li>
             </ul>
           </nav>

@@ -1,0 +1,8 @@
+.contenedorPrincipal{
+    height: 90vh;
+    overflow: auto;
+}
+
+.background{
+background: url("../img/mqdefault.jpg");
+}

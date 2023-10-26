@@ -1,4 +1,5 @@
 import {React, useRef} from 'react'
+import '../routes/useRef.css';
 
 
 
@@ -13,7 +14,7 @@ function EjemplouseRef () {
        alert("Hola " + referencia.current.value);
      };
   return (
-    <div>
+    <div className="contenedorPrincipal">
         {/* Explicación del contenido*/}
       <br />
       <h1>Uso del useRef</h1>
@@ -99,7 +100,6 @@ function EjemplouseRef () {
       <h3>Este sería el resultado</h3>
       <button onClick={escribirNuevo}>Escribir</button>
       <div ref={sobreEscribir}>XXXX</div>
-      <h1>Uso del useState</h1>
     </div>
   )
 }

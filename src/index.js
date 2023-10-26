@@ -9,6 +9,7 @@ import {
 import Root from './routes/root';
 import reportWebVitals from './reportWebVitals';
 import LeccionUseRef from './routes/useRef';
+import LeccionUseState from './routes/useState';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,8 +20,12 @@ const router = createBrowserRouter ([
     errorElement: <PaginaError />,
     children: [
       {
-        path: "leccion/:leccionUseRef",
+        path: "leccionUseRef",
         element: <LeccionUseRef />,
+      },
+      {
+        path: "leccionUseState",
+        element: <LeccionUseState />,
       },
     ]
   },

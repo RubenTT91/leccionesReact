@@ -82,7 +82,7 @@ function EjemplouseRef () {
       <p>
         {" "}
         Ahora, crearemos un botón, para escribir dentro de un div, el valor
-        difitado.
+        digitado. En este caso, tambien usaremos la referencia del div, para sobreescribir los valores
       </p>
       <p className="codigo">
         <ul>

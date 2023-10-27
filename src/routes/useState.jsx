@@ -1,6 +1,5 @@
 import React from "react";
 import "../routes/useRef.css";
-import dinkelberg from "../img/mqdefault.jpg";
 
 function useState() {
   return (
@@ -15,6 +14,12 @@ function useState() {
         <div className="cp">{`const function cambioarNumero =()=>{ variable = 10 }`}</div> <br/>
         El nuevo valor de variable, será 10, pero no se va a ver reflejado. 
       </p>
+      <h2>Modo de uso</h2>
+      <ol>
+        <li>Al igual que el useRef, debemos importarlo <p className="cp">{`import {useState , useRef} from 'react';`}</p></li>
+        <li></li>
+      </ol>
+
     </div>
   );
 }

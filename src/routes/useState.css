@@ -6,3 +6,7 @@
 .background{
 background: url("../img/mqdefault.jpg");
 }
+
+li{
+    list-style:decimal ;
+}

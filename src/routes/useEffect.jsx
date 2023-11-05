@@ -9,7 +9,7 @@ function LeccionUseEffect() {
 
   const referenciaInput = useRef(null);
   const referenciaDiv = useRef(null);
-  const [valor, setA] = useState('--');
+  const [valor, setA] = useState("--");
 
   const CambiarValor = () => {
     setA(referenciaInput.current.value);
@@ -20,7 +20,7 @@ function LeccionUseEffect() {
   }, [valor]);
 
   return (
-    <div>
+    <div className="contenedorPrincipal">
       <h1>UseEffect</h1>
       <p>
         El <div className="cp">useEffec</div>, permite ejecutar una accioón,
@@ -47,34 +47,41 @@ function LeccionUseEffect() {
         <li>
           Luego agregamos un useState para monitorear los cambios de la variable{" "}
           <p className="cp">{`valor`}</p> <br />
-          <p className="codigo">
-            {`const [valor, setA] = useState('--');`}
-            <br />
-            {`const referenciaInput = useRef(null);`}
-            <br />
-            {`const referenciaDiv = useRef(null);`}
-            <br />
-            <br />
-            {`const CambiarValor =()=>{ `} <br />
-            {`setA(Referencia_delInput)`} <br />
-            {`}`}
-            <br />
-            {`useEffec (()=>{`}
-            <br />
-            {` alert("Se hizo un cambio") `}
-            <br />
-            {`, [valor]`}
-            <br />
-            {`})`}
-            <br />
-            <br />
-            {`<input type="text" ref={referenciaInput} />`} <br />
-            <br />
-            {`<button onClick={CambiarValor}>Cambiar Valor</button>`}<br/>
-            <br />
-            {`<div ref={referenciaDiv}>{valor}</div>`}<br/>
-          </p>
         </li>
+        <li>
+          Agregamos el useEffect junto con una Arraw Function, donde pondremos
+          una acción que se va a ejecutar, mientras se monitorea una variale. <br/>
+          <p className="cp">{`useEffect (()=> { código a Ejecutar, [valor_monitoreado]})`}</p>
+        </li>
+        <p className="codigo">
+          {`const [valor, setA] = useState('--');`}
+          <br />
+          {`const referenciaInput = useRef(null);`}
+          <br />
+          {`const referenciaDiv = useRef(null);`}
+          <br />
+          <br />
+          {`const CambiarValor =()=>{ `} <br />
+          {`setA(Referencia_del_input)`} <br />
+          {`}`}
+          <br />
+          {`useEffec (()=>{`}
+          <br />
+          {` alert("Se hizo un cambio") `}
+          <br />
+          {`, [valor]`}
+          <br />
+          {`})`}
+          <br />
+          <br />
+          {`<input type="text" ref={referenciaInput} />`} <br />
+          <br />
+          {`<button onClick={CambiarValor}>Cambiar Valor</button>`}
+          <br />
+          <br />
+          {`<div ref={referenciaDiv}>{valor}</div>`}
+          <br />
+        </p>
       </ol>
     </div>
   );

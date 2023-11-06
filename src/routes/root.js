@@ -20,6 +20,9 @@ export const root = () => {
                 <Link to={`LeccionUseEffect`}>UseEffect</Link>
               </li>
               <li>
+               <Link to={`Componentes`}>Componentes</Link>
+              </li>
+              <li>
                 <Link to={`LeccionRoute`}>Route</Link>
               </li>
             </ul>

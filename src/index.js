@@ -11,6 +11,7 @@ import reportWebVitals from './reportWebVitals';
 import LeccionUseRef from './routes/useRef';
 import LeccionUseState from './routes/useState';
 import LeccionUseEffect from './routes/useEffect';
+import Components from './routes/components';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -31,6 +32,10 @@ const router = createBrowserRouter ([
       {
         path: "leccionUseEffect",
         element: <LeccionUseEffect />,
+      },
+      {
+        path: "Componentes",
+        element: <Components />,
       },
     ]
   },

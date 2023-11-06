@@ -25,6 +25,9 @@ export const root = () => {
               <li>
                 <Link to={`LeccionRoute`}>Route</Link>
               </li>
+              <li>
+                <Link to={`Props`}>Props</Link>
+              </li>
             </ul>
           </nav>
         </div>

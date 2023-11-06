@@ -12,6 +12,7 @@ import LeccionUseRef from './routes/useRef';
 import LeccionUseState from './routes/useState';
 import LeccionUseEffect from './routes/useEffect';
 import Components from './routes/components';
+import Props from './routes/Props';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -36,6 +37,10 @@ const router = createBrowserRouter ([
       {
         path: "Componentes",
         element: <Components />,
+      },
+      {
+        path: "Props",
+        element: <Props />,
       },
     ]
   },

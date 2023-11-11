@@ -13,6 +13,7 @@ import LeccionUseState from './routes/useState';
 import LeccionUseEffect from './routes/useEffect';
 import Components from './routes/components';
 import Props from './routes/Props';
+import RenderCondicional from './routes/RenderCondicional.jsx';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -41,6 +42,10 @@ const router = createBrowserRouter ([
       {
         path: "Props",
         element: <Props />,
+      },
+      {
+        path: "Render Condicional",
+        element: <RenderCondicional />,
       },
     ]
   },

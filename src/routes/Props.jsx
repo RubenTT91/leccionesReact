@@ -52,8 +52,26 @@ export default () => {
           <div>{`)};`}</div>
         </div>
 
-        Para el uso de estos parámetros, existen 2 formas, una con un parametro sin desestructuración, asi: <br/>
-        <div className="cp">{`const ComponenteDestino(props){ (...)}`}</div>{" "}
+        Para el uso de estos parámetros, existen 2 formas. Una con un parametro y luego por puntos, acceder a las claves, asi: <br/>
+        <div className="codigo">
+            {`const ComponenteDestino(props){`}<br/>
+            {`return (`}<br/>
+            {`<div>`}<br/>
+            {`El valor uno es : {props.claveUno}`}<br/>
+            {`El valor dos es : {props.claveDos}`}<br/>
+            {`El valor tres es : {props.claveTres}`}<br/>
+            {`)};`}<br/>
+        </div>
+        La otra forma, es desestructurando el parámetro usando las llaves {`{}`} para todas las claves separadas por coma, así, 
+        <div className="codigo">
+            {`const ComponenteDestino({claveUno, claveDos, claveTres}}){`}<br/>
+            {`return (`}<br/>
+            {`<div>`}<br/>
+            {`El valor uno es : {claveUno}`}<br/>
+            {`El valor dos es : {claveDos}`}<br/>
+            {`El valor tres es : {claveTres}`}<br/>
+            {`)};`}<br/>
+        </div>
       </p>
     </div>
   );

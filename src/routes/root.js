@@ -28,6 +28,9 @@ export const root = () => {
               <li>
                 <Link to={`Props`}>Props</Link>
               </li>
+              <li>
+                <Link to={`Render Condicional`}>Render Condicional</Link>
+              </li>
             </ul>
           </nav>
         </div>

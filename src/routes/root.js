@@ -20,7 +20,7 @@ export const root = () => {
                 <Link to={`LeccionUseEffect`}>UseEffect</Link>
               </li>
               <li>
-               <Link to={`Componentes`}>Componentes</Link>
+               <Link to={`/Componentes`}>Componentes</Link>
               </li>
               <li>
                 <Link to={`LeccionRoute`}>Route</Link>
@@ -30,6 +30,9 @@ export const root = () => {
               </li>
               <li>
                 <Link to={`Render Condicional`}>Render Condicional</Link>
+              </li>
+              <li>
+                <Link to={`Estilos parte 1`}>Estilos Parte #1</Link>
               </li>
             </ul>
           </nav>

@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { 
   createBrowserRouter,
+   Form,
    RouterProvider,    
   } from 'react-router-dom';
 import Root from './routes/root';
@@ -13,7 +14,9 @@ import LeccionUseState from './routes/useState';
 import LeccionUseEffect from './routes/useEffect';
 import Components from './routes/components';
 import Props from './routes/Props';
-import RenderCondicional from './routes/RenderCondicional.jsx';
+import RenderCondicional from './routes/RenderCondicional';
+import EstilosParteuno from './routes/estilosParteuno';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -46,6 +49,10 @@ const router = createBrowserRouter ([
       {
         path: "Render Condicional",
         element: <RenderCondicional />,
+      },
+      {
+        path: "Estilos parte 1",
+        element: <EstilosParteuno />,
       },
     ]
   },

@@ -27,7 +27,7 @@ function Components() {
         <h2>¿Como usar un componente?</h2>
         <ol>
           <li>
-            Como bien se sabe, un componente puede devolver o null o código JSX.
+            Como bien se sabe, un componente puede devolverñ o null o código JSX.
             Por esto, es necesario importar react en el componente de la
             siguiente manera <br />
             <div className="cp">{`import React from 'react';`} </div>

@@ -34,6 +34,9 @@ export const root = () => {
               <li>
                 <Link to={`Estilos parte 1`}>Estilos Parte #1</Link>
               </li>
+              <li>
+                <Link to={`Estilos Componentes`}>Estilos Parte #2 - Por componentes</Link>
+              </li>
             </ul>
           </nav>
         </div>

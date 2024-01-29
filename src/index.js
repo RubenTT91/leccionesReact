@@ -16,6 +16,7 @@ import Components from './routes/components';
 import Props from './routes/Props';
 import RenderCondicional from './routes/RenderCondicional';
 import EstilosParteuno from './routes/estilosParteuno';
+import EstilosPartedos from './routes/styledComponents';
 
 
 
@@ -53,6 +54,10 @@ const router = createBrowserRouter ([
       {
         path: "Estilos parte 1",
         element: <EstilosParteuno />,
+      },
+      {
+        path: "Estilos Componentes",
+        element: <EstilosPartedos />,
       },
     ]
   },

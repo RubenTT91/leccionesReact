@@ -17,6 +17,7 @@ import Props from './routes/Props';
 import RenderCondicional from './routes/RenderCondicional';
 import EstilosParteuno from './routes/estilosParteuno';
 import EstilosPartedos from './routes/styledComponents';
+import {Rutas} from './routes/rutas';
 
 
 
@@ -34,6 +35,10 @@ const router = createBrowserRouter ([
       {
         path: "leccionUseState",
         element: <LeccionUseState />,
+      },
+      {
+        path: "rutas",
+        element: <Rutas />,
       },
       {
         path: "leccionUseEffect",

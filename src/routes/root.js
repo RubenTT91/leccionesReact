@@ -23,7 +23,7 @@ export const root = () => {
                <Link to={`/Componentes`}>Componentes</Link>
               </li>
               <li>
-                <Link to={`LeccionRoute`}>Route</Link>
+                <Link to={`rutas`}>Route</Link>
               </li>
               <li>
                 <Link to={`Props`}>Props</Link>
